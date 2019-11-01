@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.daily {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.item-title, .item-content {
+  padding: 10px;
+  border: solid #dedede 1px;
+}
+
+.daily tr:nth-child(even) .item-content:not(:first-child){
+  background-color: #ecf1f2;
+}
+
+.item-title {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.item-content {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.daily tbody tr:last-child{
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
