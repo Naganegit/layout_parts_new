@@ -19,6 +19,9 @@
  background-color: #3274ae;
  width: 270px;
  float: left;
+ /* 修正１：追加 */
+ box-sizing: border-box;
+ padding: 20px;
 }
 
 .article-box:not(:first-child){
@@ -29,7 +32,8 @@
   box-sizing: border-box;
   width: 230px;
   padding: 20px;
-  margin: 20px 0 20px 20px;
+  /* 修正２：削除 */
+  /* margin: 20px 0 20px 20px; */
   background-color: #eaf4ff;
   border: 10px solid #022336;
 }

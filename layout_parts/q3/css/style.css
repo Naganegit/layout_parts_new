@@ -27,7 +27,8 @@
 .daily tr td {
   font-size: 16px;
   line-height: 22px;
-  /* 質問1：文字の位置について */
+  /* 修正２：追加 */
+  vertical-align: middle;
 }
 
 .daily tbody tr:last-child{

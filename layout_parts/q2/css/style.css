@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
+/* 修正２　clearfixを追加 */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .main {
   width: 940px;
   background-color: #eff3f4;

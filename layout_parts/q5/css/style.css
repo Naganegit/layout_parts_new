@@ -16,11 +16,15 @@
   text-align: center;
   line-height: 100px;
   font-size: 30px;
-}
-
-.numbox:not(:nth-child(9)) {
+  /* 修正１：追加 */
   position: absolute;
 }
+
+/* 修正１：削除 */
+/* 
+.numbox:not(:nth-child(9)) {
+  position: absolute;
+} */
 
 .one {
   background-color: #ffefd3;

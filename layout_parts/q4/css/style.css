@@ -15,12 +15,16 @@
   text-align: center;
   box-sizing: border-box;
   display: table;
-  table-layout: fixed;
+  /* 修正２：削除 */
+  /* table-layout: fixed; */
   width: 100%;
 }
 
 .table-bar:not(:first-child) {
-  padding-top: 20px ;
+  /* 修正１：追加 */
+  margin-top: 20px ;
+  /* 修正１：削除 */
+  /* padding-top: 20px ; */
 }
 
 .sm-box {
@@ -35,8 +39,9 @@
 
 .purple {
   background-color: #e0abd9;
+  /* 修正２：削除 */
   /* 質問：width指定 */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .blue {
@@ -46,12 +51,14 @@
 
 .yellow {
   background-color: #e5d32e;
-  width: 100%;
+  /* 修正２：削除 */
+  /* width: 100%; */
 }
 
 .red {
   background-color: #ec8f9a;
-  width: 100%;
+  /* 修正２：削除 */
+  /* width: 100%; */
 }
 
 .green {
