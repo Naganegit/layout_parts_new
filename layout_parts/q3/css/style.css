@@ -8,23 +8,23 @@
   text-align: center;
 }
 
-.item-title, .item-content {
+.daily tr th, .daily tr td {
   padding: 10px;
   border: solid #dedede 1px;
 }
 
-.daily tr:nth-child(even) .item-content:not(:first-child){
+.daily tr:nth-child(even) td:not(:first-child){
   background-color: #ecf1f2;
 }
 
-.item-title {
+.daily tr th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.item-content {
+.daily tr td {
   font-size: 16px;
   line-height: 22px;
 }
