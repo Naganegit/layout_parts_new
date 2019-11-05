@@ -7,8 +7,11 @@
   clear: both;
 }
 
-.first-box, .second-box {
+.main {
   padding: 20px;
+}
+
+.table-bar {
   text-align: center;
   box-sizing: border-box;
   display: table;
@@ -16,8 +19,8 @@
   width: 100%;
 }
 
-.second-box {
-  padding-top: 0 ;
+.table-bar:not(:first-child) {
+  padding-top: 20px ;
 }
 
 .sm-box {
@@ -32,6 +35,7 @@
 
 .purple {
   background-color: #e0abd9;
+  /* 質問：width指定 */
   width: 100%;
 }
 

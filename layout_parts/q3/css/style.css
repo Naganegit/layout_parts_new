@@ -27,6 +27,7 @@
 .daily tr td {
   font-size: 16px;
   line-height: 22px;
+  /* 質問1：文字の位置について */
 }
 
 .daily tbody tr:last-child{
