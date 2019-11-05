@@ -18,7 +18,7 @@
   font-size: 30px;
 }
 
-.main div:not(:nth-child(9)) {
+.numbox:not(:nth-child(9)) {
   position: absolute;
 }
 
