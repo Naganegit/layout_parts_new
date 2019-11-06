@@ -8,85 +8,105 @@
 }
 
 /* q7-1 */
-.q7-first {
+.q7-float {
   width: 225px;
   float: left;
   font-size: 16px;
   box-sizing: border-box;
-}
-
-.q7-first:last-child {
+  /* 修正１：追加 */
   margin-left: 50px;
 }
 
+/* 修正１：last-childのみつける方法からfirst-childのmarginを消す方法に変更 */
+/* .q7-float:last-child { */
+.q7-float:first-child {
+  margin-left: 0;
+}
+
 /* q7-2 */
-.q7-second-box {
+.q7-table-box {
   display: table;
 }
 
-.q7-second {
+.q7-table {
   width: 225px;
   font-size: 16px;
   display: table-cell;
-}
-
-.q7-second:first-child {
-  vertical-align: middle;
-}
-
-.q7-second:last-child {
+  /* 修正２：追加 */
   padding-left: 50px;
 }
 
+.q7-table:first-child {
+  padding-left: 0;
+  vertical-align: middle;
+}
+/* 修正２：削除 */
+/* 
+.q7-table:last-child {
+  padding-left: 50px;
+} */
+
 /* q7-3 */
-.q7-third-box {
+.q7-inline-block-box {
   font-size: 0;
 }
-.q7-third {
+.q7-inline-block {
   width: 225px;
   font-size: 16px;
   display: inline-block;
   box-sizing: border-box;
   vertical-align: middle;
-}
-
-.q7-third:last-child {
+  /* 修正３：追加 */
   margin-left: 50px;
 }
 
+.q7-inline-block:first-child {
+/* .q7-inline-block:last-child { */
+  margin-left: 0;
+}
+
 /* q7-4 */
-.q7-fourth-box {
+.q7-flex-box {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
 
-.q7-fourth {
+.q7-flex {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
 /* q7-5 */
-.q7-fifth-box {
+.q7-inline-margin-box {
   font-size: 0;
 }
 
-.q7-fifth {
+.q7-inline-margin {
   font-size: 16px;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
 }
 
-.q7-fifth:first-child {
+.q7-inline-margin:first-child {
   width: 300px;
 }
 
-.q7-fifth:last-child {
+/* 修正４:追加 */
+.q7-inline-margin:last-child {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
+
+/* 修正４：削除 */
+/* 
+.q7-inline-margin:last-child {
   margin-top: -116px;
   margin-left: 350px;
-}
+} */
 
 
 /* 回答はここに書いてね */
