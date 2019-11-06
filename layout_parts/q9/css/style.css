@@ -51,11 +51,11 @@
   border: #ecf1f2 10px solid;
   border-top: #00bcd4 10px solid;
   /* animation  .. @keyframes(定義） | duration | timing-function | iteration-count */
-  animation: road-anime 1s linear infinite;
+  animation: roading 1s linear infinite;
   animation-iteration-count: infinite;
 }
 
-@keyframes road-anime {
+@keyframes roading {
   0% { transform: rotate(0);}
   100% { transform: rotate(360deg);}
 }
